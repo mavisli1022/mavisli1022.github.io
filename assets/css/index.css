@@ -1,5 +1,20 @@
-body{
+html, body{
+	height:100%;
+	margin:0;
+}
+
+#left-col{
+	width: 50%;
+	height: 100%;
 	background-color: #1AA6B7;
+	float: left;
+}
+
+#right-col{
+	width: 50%;
+	background-color: white !important;
+	height: 100%;
+	float: left;
 }
 
 #bar{
@@ -10,6 +25,8 @@ body{
 
 ul{
 	list-style-type: none;
+	margin-top: 90%;
+	margin-left: 10%;
 }
 
 a{
@@ -17,25 +34,27 @@ a{
 	color:white;
 }
 
-li{
-	margin-left: 45%;
+.menu{
+	font-size: 15px;
+	border-right: solid 1px #FFF;
 	padding: 4px 10px;
-	width: 4%;
+	width: 40px;
 	transition-property:background,border-radius;
 	-webkit-transition-timing-function: linear;
 	animation-timing-function: ease-in-out;
 	-webkit-font-smoothing:antialiased;
 	transition-duration: 0.2s, 0.4s;
 	cursor: pointer;
+	float: left;
 }
 
-li:hover{
+.menu:hover{
 	background-color: #022D41;
 	border-radius: 10%;
 }
 
 p{
-	font-size: 10px;
+	font-size: 8px;
 	color: #1AA6B7;
 }
 
@@ -43,7 +62,7 @@ p{
 	position: absolute;
 	width: 100%;
 	bottom: 0px;
-	background-color: #FFF;
+	background-color: #FFF !important;
 }
 
 #githubicon{
