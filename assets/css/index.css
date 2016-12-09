@@ -6,15 +6,16 @@ html, body{
 #left-col{
 	width: 50%;
 	height: 100%;
-	background-color: #1AA6B7;
 	float: left;
 }
 
 #right-col{
 	width: 50%;
-	background-color: white !important;
 	height: 100%;
 	float: left;
+	background-image:url("../pic/IMG_0643.JPG");
+	background-size: cover;
+	overflow:hidden;
 }
 
 #bar{
@@ -31,7 +32,7 @@ ul{
 
 a{
 	text-decoration: none;
-	color:white;
+	color:#248BC6;
 }
 
 .menu{
@@ -51,11 +52,12 @@ a{
 .menu:hover{
 	background-color: #022D41;
 	border-radius: 10%;
+	color: white;
 }
 
 p{
 	font-size: 8px;
-	color: #1AA6B7;
+	color: #248BC6;
 }
 
 #footer{
@@ -66,5 +68,5 @@ p{
 }
 
 #githubicon{
-	fill: #1AA6B7;
+	fill: #248BC6;
 }
