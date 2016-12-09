@@ -1,12 +1,20 @@
 body{
 	background-color: #1AA6B7;
-	
 }
 
-div{
+#bar{
 	font-size: 20px;
 	margin-top: 25%;
 	color: white;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color:white;
 }
 
 li{
@@ -20,27 +28,24 @@ li{
 	transition-duration: 0.2s, 0.4s;
 	cursor: pointer;
 }
-ul{
-	list-style-type: none;
-}
-
-a{
-	text-decoration: none;
-	color:white;
-}
 
 li:hover{
 	background-color: #022D41;
 	border-radius: 10%;
-
 }
 
 p{
 	font-size: 10px;
+	color: #1AA6B7;
 }
 
-
+#footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #FFF;
+}
 
 #githubicon{
-	fill: white;
+	fill: #1AA6B7;
 }
