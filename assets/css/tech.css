@@ -1,0 +1,33 @@
+html, body{
+	height:100%;
+	margin:0;
+}
+
+#footer{
+	display: block;
+	position: absolute;
+	line-height: 15px;
+	width: 100%;
+	margin-bottom: 0px !important;
+	background-color: #FFF !important;
+}
+
+#githubicon{
+	fill: #248BC6;
+}
+
+p{
+	font-size: 8px;
+}
+
+#first-page {
+	background-size: cover;
+	background-image:url("../pic/8jRHVr.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+#second-page{
+	height: 100%;
+	width: 100%;
+}
