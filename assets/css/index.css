@@ -1,0 +1,72 @@
+html, body{
+	height:100%;
+	margin:0;
+}
+
+#left-col{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+#right-col{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-image:url("../pic/IMG_0643.JPG");
+	background-size: cover;
+	overflow:hidden;
+}
+
+#bar{
+	font-size: 20px;
+	margin-top: 25%;
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 90%;
+	margin-left: 10%;
+}
+
+a{
+	text-decoration: none;
+	color:#248BC6;
+}
+
+.menu{
+	font-size: 15px;
+	border-bottom: solid 1px #248BC6;
+	padding: 4px 10px;
+	width: 40px;
+	transition-property:background,border-radius;
+	-webkit-transition-timing-function: linear;
+	animation-timing-function: ease-in-out;
+	-webkit-font-smoothing:antialiased;
+	transition-duration: 0.2s, 0.4s;
+	cursor: pointer;
+	float: left;
+}
+
+.menu:hover{
+	background-color: #022D41;
+	border-radius: 10%;
+	color: white;
+}
+
+p{
+	font-size: 8px;
+	color: #248BC6;
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #FFF !important;
+}
+
+#githubicon{
+	fill: #248BC6;
+}
