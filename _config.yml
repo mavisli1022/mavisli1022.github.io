@@ -3,7 +3,6 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -26,6 +25,7 @@ author :
 production_url : http://mavisli1022.github.io
 
 gems: ["jekyll-sitemap"]
+
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -71,7 +71,8 @@ JB :
   #
   home_path: /index.html
   archive_path: /archive.html
-  categories_path : /categories.html
+  tech_path: /tech.html
+  life_path: /life.html
 
   
    

@@ -1,6 +1,31 @@
 ---
-layout: page
+layout: default
 title: "Life"
+group: navigation
+order: 2
 description: ""
+images:
+  - image_path: /p/IMG_0797.jpg
+    title: here
 ---
 {% include JB/setup %}
+
+<ul>
+  {% for photo in page.images %}
+    <li>
+        <img src="{{ photo.image_path }}" alt="{{ photo.title }}" >
+    </li>
+  {% endfor %}
+</ul>
+
+
+<style type="text/css">
+img{
+	height: 30%;
+	width: 30%;
+}
+
+li{
+	list-style-type: none;
+}
+</style>
