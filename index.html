@@ -1,15 +1,29 @@
+---
+group: navigation
+title: Home
+order: 1
+---
+{% include JB/setup %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="../css/tech.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/index.css">
     </head>
     <body>
-        <div id = "first-page"></div>
+        <div id = "left-col">
+            <div id = "bar">
+                <ul>
+            	   <a href="/life"><li class= "menu">Life</li></a>
+            	   <a href="/tech"><li class= "menu">Tech</li></a>
+            	   <a href="/about"><li class= "menu">About</li></a>
+                </ul>
+            </div>
+        </div>
 
-        <div id = "second-page"></div>
-            <li></li>
+        <div id = "right-col"></div>
 
         <div id = "footer">
         	<div align="center">
