@@ -5,7 +5,11 @@ group: navigation
 order: 2
 description: ""
 images:
-  - image_path: /p/IMG_0797.jpg
+  - image_path: /p/IMG_0822.jpg
+    title: here
+  - image_path: /p/IMG_0788.jpg
+    title: here
+  - image_path: /p/IMG_0765.jpg
     title: here
 ---
 {% include JB/setup %}
@@ -13,7 +17,7 @@ images:
 <ul>
   {% for photo in page.images %}
     <li>
-        <img src="{{ photo.image_path }}" alt="{{ photo.title }}" >
+        <a href="{{ photo.image_path }}"><img src="{{ photo.image_path }}" alt="{{ photo.title }}" ></a>
     </li>
   {% endfor %}
 </ul>
@@ -22,10 +26,15 @@ images:
 <style type="text/css">
 img{
 	height: 30%;
+	margin-top: 20px;
+	margin-left: 35px;
 	width: 30%;
+	float: left;
 }
 
 li{
 	list-style-type: none;
 }
 </style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/life.js" type="text/javascript"></script>

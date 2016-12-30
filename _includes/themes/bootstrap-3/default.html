@@ -43,7 +43,8 @@
 
   <body>
     <div id="wrap">
-      <nav class="navbar navbar-default" role="navigation">
+      <nav class="navbar navbar-default" role="navigation" style="margin-bottom: 0px;
+      height: 47px; border-right: white; border-left: white; border-radius: 0px;">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
@@ -93,4 +94,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
   </body>
+
+  <style type="text/css">
+  #jb-navbar-collapse{
+    height: 45px !important;
+    
+    background-color: white;
+  }
+  .navbar-default{
+    border-color: #778899;
+    background-color: white;
+  }
+  .navbar{
+    min-height: 45px !important;
+  }
+
+  .navbar-nav>li>a{
+    height: 45px !important; 
+    line-height: 15px;
+    min-width: 45px;
+    padding-bottom: 10px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: #778899;
+  }
+
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: #fff ;
+    background-color: #778899;
+  }
+  .btn-default{
+    color: #778899;
+    background-color: #fff;
+    border-color: #778899;
+  }
+
+  </style>
 </html>
